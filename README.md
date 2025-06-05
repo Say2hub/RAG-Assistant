@@ -32,4 +32,27 @@ A **Retrieval-Augmented Generation (RAG)** assistant built with Python to delive
 3.**Install Dependencies**:
    ```bash
    pip install -r requirements.txt
+```
+4.**Data Corpus**:
+- You can fine tune the local llm model on any dataset of your choice.
+- My Reference data is in data/directory.
+
+## ⚙️ Usage
+1.**Run the AI-Assistant**:
+```bash
+   python main.py
+```
+2.**Test the Assistant**:
+**Input**:
+```plaintext
+   What is Retrieval Augmented Generation?
+```
+**Output**:
+```plaintext
+   Retrieval-Augmented Generation (RAG) combines a retriever to fetch relevant documents and a generator to produce coherent answers, enhancing response accuracy.
+```
+
+
+   
+
 
