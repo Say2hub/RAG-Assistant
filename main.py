@@ -53,7 +53,7 @@ retriever = db.as_retriever(search_kwargs={"k": 3})
 
 from langchain_openai import ChatOpenAI
 
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "your-api-key"
 
 llm = ChatOpenAI(
     model_name="llama3-70b-8192",
