@@ -24,3 +24,12 @@ A **Retrieval-Augmented Generation (RAG)** assistant built with Python to delive
    ```bash
    git clone https://github.com/Say2hub/RAG-Assistant.git
    cd your-repo-name
+
+2. **Set Up Virtual Environment** (recommended):
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+3.**Install Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+
