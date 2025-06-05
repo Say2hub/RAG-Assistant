@@ -1,7 +1,6 @@
-RAG-Based Assistant 🤖
 A Retrieval-Augmented Generation (RAG) assistant built with Python to deliver accurate, context-aware responses by combining document retrieval with natural language generation. Perfect for question-answering and information retrieval tasks.
 
-  
+
 🌟 Features
 
 📚 Efficient Retrieval: Retrieves relevant documents from a corpus using advanced search techniques.
@@ -31,10 +30,18 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 Install Dependencies:
 pip install -r requirements.txt
 
+Example requirements.txt:
+transformers==4.35.0
+langchain==0.0.123
+faiss-cpu==1.7.4
+numpy==1.24.3
+
+
 Prepare the Corpus:
 
 Add your document corpus to the data/ directory.
 Update the corpus path in config.py or the main script.
+
 
 
 🚀 Usage
@@ -44,7 +51,7 @@ python main.py
 
 Alternatively, open the Colab notebook for a quick start.
 
-Input a Query:Enter your question when prompted.
+Input a Query: Enter your question when prompted.
 
 
 Example
@@ -82,5 +89,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 📬 Contact
 For questions, open an issue or email your-email@example.com.
 
-
-  Built with ❤️ by [Sayantan]
+Built with ❤️ by [Sayantan]
